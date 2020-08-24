@@ -1,0 +1,7 @@
+openbabel/pybel #fingerprint converter
+sklearn==0.23.1 # need this version or same of pickle
+pickle #load models
+numpy #for math operations
+streamlit #create dashboard
+cirpy # casrn to smiles converter
+
