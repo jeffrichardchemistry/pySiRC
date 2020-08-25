@@ -15,12 +15,10 @@ models_links = {'Bagging_kOH.sav':'https://drive.google.com/u/0/uc?id=1PJTZROfjU
                 'RandomForest_kOH.sav':'https://drive.google.com/u/0/uc?id=1EvlfTuZnbDZ92ND1jN8M8qikg3YfoLzL&export=download', 
                 'random_forest_SO4.sav':'https://drive.google.com/u/0/uc?id=1Borr3PLQEFCtCs8dAN89giUCsup9TSMy&export=download',
                 'mlp_kOH.sav':'https://drive.google.com/u/0/uc?id=14RQcpz07CXCt-v_OWXdd3TKosx7TCcs5&export=download', 
-                'mlp_SO4.sav':'https://drive.google.com/u/0/uc?id=14RQcpz07CXCt-v_OWXdd3TKosx7TCcs5&export=download'}
+                'mlp_SO4.sav':'https://drive.google.com/u/0/uc?id=1BxfFdVxYEVncVNoI56Aa8ZgO9-53BEGz&export=download'}
 
 
 for name, link in models_links.items():
-    #subprocess.run('cd {}'.format(full_models_path), shell=True)
-    #subprocess.run('wget -c -O {} {}'.format(name, link), shell=True)
     print('Downloading model {} to {}'.format(name, full_models_path))
     subprocess.getoutput('wget -c --output-document={} {}'.format(full_models_path+name, link))
     
