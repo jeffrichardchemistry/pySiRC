@@ -31,7 +31,7 @@ $ sudo make install
 In the step "make -j2" choose the desired number of threads in "-j"
 
 If you want the option to draw molecules you need to install the "RDkit" 
-dependency which is only available via conda. Conda version recommended [here](https://repo.anaconda.com/archive/Anaconda3-4.4.0-Linux-x86_64.sh)
+dependency which is available via conda. Conda version recommended [here](https://repo.anaconda.com/archive/Anaconda3-4.4.0-Linux-x86_64.sh)
 ```
 $ chmod +x Anaconda3-4.4.0-Linux-x86_64.sh
 $ ./Anaconda3-4.4.0-Linux-x86_64.sh
