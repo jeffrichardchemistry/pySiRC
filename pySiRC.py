@@ -9,7 +9,8 @@ from rdkit.Chem import Draw
 TEXT1 = """
 This application consists of the prediction of reaction
 rate constant based on Machine Learning models using molecular fingerprints (FP2).
-It is only necessary to inform the molecule in SMILES or CASN format.
+It is only necessary to inform the molecule in SMILES or CASN format. 
+The models present in this work were built using [scikit-learn](https://scikit-learn.org/stable/) in the python language.
 """
 
 TEXT2 = """
@@ -19,13 +20,16 @@ Application has GNU GPL license. All source code can be accessed [here](https://
 """
 
 TEXT3 = """
-The models present in this work were built using [scikit-learn](https://scikit-learn.org/stable/) in the python language.
-The external model must be constructed using only the 1024-bit fingerprint, i.e.,
+After importing the model, if the option chosen is 'Smiles'
+the external model must be constructed using only the 1024-bit fingerprint, i.e.,
 the number of independent variables in the model (xi) must be 1024,
-because to make the prediction it is necessary to pass a binary vector of size 1024.
+because to make the prediction it is necessary to pass a binary vector of size 1024,
+the fingerprint (FP2) will be generated using openbabel.
+If the option chosen is 'Another Fingerprint', pass a vector like [0, 0, 0, 1, ...., 1, 1, 0] 
+with the same number of columns in which the model was trained
+
 It is strongly recommended to save the model using the [Pickle package](https://docs.python.org/3/library/pickle.html) (as .sav by convention).
 
-After importing the model, inform the molecule smiles to perform the prediction of the rate constant.
 """
 class Backend():
     def __init__(self):
@@ -234,25 +238,50 @@ class FrontEnd(Backend):
                 FrontEnd.code_external_model(self)
 
             model_upedd = st.file_uploader('Upload model')
+            #Check if model is load correctly
             if model_upedd is not None:
-                st.success('Loaded Model.')
-                get_smiles = st.text_input('Type your SMILES')
-                show_FP_em = st.checkbox("Show FingerPrint")
-                if show_FP_em:
-                    try:
-                        fpsbits_em, fpsbinary_em = FrontEnd.makeFingerPrint(self, smiles=get_smiles)
-                        st.write('Bits FingerPrint', fpsbits_em, 'Binary FingerPrint', list(fpsbinary_em))
-                    except:
-                        pass
+                st.success('Model loaded.')
+                model_uped = pickle.load(model_upedd)
+                st.write(model_uped)
+                smiorfp = st.radio('', ('Smiles', 'Another Fingerprint')) #choose options
 
-            if st.button('Generate'):
-                if model_upedd is not None:
-                    model_uped = pickle.load(model_upedd)
-                    st.write(model_uped)
-                    #predict = model_uped.predict(np.array(fp).reshape(1, -1))
-                    predict = model_uped.predict([fpsbinary_em])
-                    #predict = e**(FrontEnd.back_rescale2lnK(self, predict, k='kSO4'))                            
-                    st.markdown('## {}'.format(np.format_float_scientific(np.float32(predict[0]))), unsafe_allow_html=True)
+                if smiorfp == 'Smiles':
+                    get_smiles = st.text_input('Type your SMILES')
+                    show_FP_em = st.checkbox("Show FingerPrint")
+                    if show_FP_em:
+                        try:
+                            fpsbits_em, fpsbinary_em = FrontEnd.makeFingerPrint(self, smiles=get_smiles)
+                            st.write('Bits FingerPrint', fpsbits_em, 'Binary FingerPrint', list(fpsbinary_em))
+                        except:
+                            pass
+
+                    if st.button('Generate'):
+                        try:
+                            fpsbits_em, fpsbinary_em = FrontEnd.makeFingerPrint(self, smiles=get_smiles)
+                            
+                            #predict = model_uped.predict(np.array(fp).reshape(1, -1))
+                            predict = model_uped.predict([fpsbinary_em])
+                            #predict = e**(FrontEnd.back_rescale2lnK(self, predict, k='kSO4'))                            
+                            st.markdown('## Rate Constant: {}'.format(np.format_float_scientific(np.float32(predict[0]))), unsafe_allow_html=True)
+                        except:
+                            pass
+                        
+
+                elif smiorfp == 'Another Fingerprint':
+                    another_FP = st.text_input('Type your binary fingerprint')
+
+                    if st.button('Generate'):                        
+                        binFp = []
+                        for i in another_FP.replace('[', '').replace(']', '').replace(',', '').split():
+                            binFp.append(int(i))
+
+                        predict = model_uped.predict(np.array(binFp).reshape(1, -1))
+                        #predict = model_uped.predict([another_FP])
+                        st.markdown('## Rate Constant: {}'.format(np.format_float_scientific(np.float32(predict[0]))), unsafe_allow_html=True)
+                        #st.write(list(another_FP))
+
+
+
             
 
     def NavigationBar(self):
