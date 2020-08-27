@@ -5,12 +5,26 @@ import numpy as np
 from numpy import e
 from rdkit.Chem import AllChem
 from rdkit.Chem import Draw
+import cirpy
 
 TEXT1 = """
-This application consists of the prediction of reaction
+This application consists of the prediction of 
 rate constant based on Machine Learning models using molecular fingerprints (FP2).
 It is only necessary to inform the molecule in SMILES or CASN format. 
 The models present in this work were built using [scikit-learn](https://scikit-learn.org/stable/) in the python language.
+
+## About
+pySiRC was designed to help facilitate researchers to predict and analyze
+rate constants using Machine Learning models, since the theoretical calculation
+and experimental measures of rate constants can be extremely challenging.
+The tools are designed to be quick and simple so that users with few clicks
+can make the prediction, while the tools are rigorous enough to have 
+applications in academic research.
+All the source code for this application and the steps for
+local installation are at [https://github.com/jeffrichardchemistry/pySiRC](https://github.com/jeffrichardchemistry/pySiRC).
+You are free to use, change and distribute this application under the GNU GPL license.
+The maintainers of this package so far are: Jefferson Richard Dias  (jrichardquimica@gmail.com)
+and Flavio Olimpio (flavio_olimpio@outlook.com).
 """
 
 TEXT2 = """
@@ -23,7 +37,6 @@ TEXT3 = """
 After importing the model, if the option chosen is 'Smiles'
 the external model must be constructed using only the 1024-bit fingerprint, i.e.,
 the number of independent variables in the model (xi) must be 1024,
-because to make the prediction it is necessary to pass a binary vector of size 1024,
 the fingerprint (FP2) will be generated using openbabel.
 If the option chosen is 'Another Fingerprint', pass a vector like [0, 0, 0, 1, ...., 1, 1, 0] 
 with the same number of columns in which the model was trained
@@ -109,6 +122,13 @@ class FrontEnd(Backend):
         if nav == 'Simulator':
             st.title('Simulator')
             smi_casrn = st.text_input('Type your SMILES or CASRN', 'CC(Cl)(Cl)C(O)=O')
+            #test casnumber or smiles
+            if smi_casrn.count('-') == 2:
+                casrn2smi = cirpy.resolve(smi_casrn, 'smiles')
+                st.write(casrn2smi)
+                smi_casrn = casrn2smi
+            else:
+                pass
 
             show_molecule = st.button('Show')
             if show_molecule:
@@ -286,7 +306,7 @@ class FrontEnd(Backend):
 
     def NavigationBar(self):
         st.sidebar.markdown("# Navigation")
-        nav = st.sidebar.radio('Go To:', ['HOME', 'Simulator', 'External Model','About'])
+        nav = st.sidebar.radio('Go To:', ['HOME', 'Simulator', 'External Model'])
 
         st.sidebar.markdown("# Contribute")
         st.sidebar.info('{}'.format(TEXT2))
