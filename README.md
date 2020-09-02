@@ -8,6 +8,7 @@ Another way to use this application is to install and run it locally. PySiRC was
 <li><b>Openbabel/pybel:</b>Convert smiles to fingerprints.</li>
 <li><b>RDkit:</b>Draw molecules.</li>
 <li><b>Numpy:</b>Create matrices and mathematical operations.</li>
+<li><b>Cirpy:</b>Convert cas number to smiles.</li>
 <li><b>Streamlit:</b>Python framework for creating dashboards.</li>
 </ul>
 
@@ -42,14 +43,14 @@ $ conda install -c conda-forge rdkit
 ```
 If you chose to install conda/rdkit, now install pybel, streamlit and numpy:
 ```
-$ pip install streamlit numpy openbabel
+$ pip install streamlit numpy cirpy openbabel
 ```
 
 If you skipped the installation step of conda/rdkit
 install python3-pip to get pythons package, and then install pybel, numpy and streamlit:
 ```
 $ sudo apt install python3-pip
-$ sudo pip3 install numpy streamlit openbabel
+$ sudo pip3 install numpy streamlit cirpy openbabel
 ```
 If configuring in a virtual environment run the previous step without root.
 
