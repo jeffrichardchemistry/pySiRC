@@ -6,7 +6,9 @@ from numpy import e
 from rdkit.Chem import AllChem
 from rdkit.Chem import Draw
 import cirpy
+from PIL import Image
 
+IMAGE_SUPP = Image.open('figs/logos.jpeg')
 TEXT1 = """
 This application consists of the prediction of 
 rate constant based on Machine Learning models using molecular fingerprints (FP2).
@@ -121,7 +123,8 @@ class FrontEnd(Backend):
         nav = FrontEnd.NavigationBar(self)
         if nav == 'HOME':
             st.header('Python Simulator of Rate Constant')
-            st.markdown('{}'.format(TEXT1))
+            st.markdown('{}'.format(TEXT1), unsafe_allow_html=True)
+            st.image(IMAGE_SUPP, use_column_width=True)
 
         if nav == 'Simulator':
             st.title('Simulator')
@@ -256,7 +259,7 @@ class FrontEnd(Backend):
         if nav == 'External Model':
             st.set_option('deprecation.showfileUploaderEncoding', False)
             st.title('Upload External Model')
-            st.markdown('{}'.format(TEXT3))
+            st.markdown('{}'.format(TEXT3), unsafe_allow_html=True)
 
             if st.checkbox('Show Example'):
                 FrontEnd.code_external_model(self)
