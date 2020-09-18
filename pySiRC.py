@@ -25,6 +25,9 @@ local installation are at [https://github.com/jeffrichardchemistry/pySiRC](https
 You are free to use, change and distribute this application under the GNU GPL license.
 The maintainers of this package so far are: Jefferson Richard Dias  (jrichardquimica@gmail.com)
 and Flavio Olimpio (flavio_olimpio@outlook.com).
+
+## Supporters
+
 """
 
 TEXT2 = """
@@ -107,13 +110,14 @@ class Backend():
             bsdata = (data*(self.max_kSO4 - self.min_kSO4) + self.min_kSO4)
             return bsdata
 
-        
+
 class FrontEnd(Backend):
     def __init__(self):
         super().__init__() # need this to inherit backends init
         FrontEnd.main(self)
 
-    def main(self):
+    def main(self):        
+        
         nav = FrontEnd.NavigationBar(self)
         if nav == 'HOME':
             st.header('Python Simulator of Rate Constant')
