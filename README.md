@@ -2,7 +2,7 @@
 
 # pySiRC
 pySiRC is a simple web application for predicting rate constant using machine learning models.
-The models used are: Random Forest, MultiLayer Perceptron (Neural network), Bagging, Extra Trees and Gradient Boosting. It is possible to make predictions for oxidation reactions with the radicals OH and SO4 with just a few clicks. To access this application remotely use the link [www.pysirc.com](http://www.pysirc.com).
+The models used are: Random Forest, MultiLayer Perceptron (Neural network), Bagging, Extra Trees and Gradient Boosting. It is possible to make predictions for oxidation reactions with the radicals OH and SO4 with just a few clicks. To access this application remotely use the link [pysirc.com.br](http://pysirc.com.br/).
 Another way to use this application is to install and run it locally. PySiRC was developed using the python language and has some dependencies.
 
 ### Dependencies
