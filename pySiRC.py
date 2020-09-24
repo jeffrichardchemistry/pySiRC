@@ -10,31 +10,29 @@ from PIL import Image
 
 IMAGE_SUPP = Image.open('figs/logos.jpeg')
 TEXT1 = """
-This application consists of the prediction of 
-rate constant based on Machine Learning models using molecular fingerprints (FP2).
-It is only necessary to inform the molecule in SMILES or CASN format. 
-The models present in this work were built using [scikit-learn](https://scikit-learn.org/stable/) in the python language.
+This application consists of the automatic prediction of reaction rate constant of the radical-based oxidation process
+of aqueous organic contaminants based on Machine Learning models using molecular fingerprints (FP2).
+It is only necessary to inform the SMILES or CAS Number format of a specific molecule.
+The models present in this work were built using [scikit-learn](https://scikit-learn.org/stable/) package.
+The predict values can be confronted with experimental values available in ref. [our] or [kinetics.nist.gov/solution](kinetics.nist.gov/solution). 
 
 ## About
-pySiRC was designed to help facilitate researchers to predict and analyze
-rate constants using Machine Learning models, since the theoretical calculation
-and experimental measures of rate constants can be extremely challenging.
-The tools are designed to be quick and simple so that users with few clicks
-can make the prediction, while the tools are rigorous enough to have 
-applications in academic research.
-All the source code for this application and the steps for
-local installation are at [https://github.com/jeffrichardchemistry/pySiRC](https://github.com/jeffrichardchemistry/pySiRC).
-You are free to use, change and distribute this application under the GNU GPL license.
-The maintainers of this package so far are: Jefferson Richard Dias  (jrichardquimica@gmail.com)
-and Flavio Olimpio (flavio_olimpio@outlook.com).
+pySiRC was designed to facilitate the automatic researchers to prediction and analyze of reaction rate constants
+using Machine Learning models, since the theoretical calculation and experimental measures of these kinetic
+parameters can be extremely challenging. The tools are designed to be quick and simple users with few clicks
+can make the prediction. The tools are rigorous enough to have applications in academic research.
+All the source code for this application and the steps for local installation are at
+[https://github.com/jeffrichardchemistry/pySiRC](https://github.com/jeffrichardchemistry/pySiRC).
+You are free to use, change and distribute this application under the GNU GPL license. The maintainers of this
+package so far are: Jefferson Richard Dias (jrichardquimica@gmail.com) and Flavio Olimpio (flavio_olimpio@outlook.com).
 
 ## Supporters
 
 """
 
 TEXT2 = """
-This web app is free and opensource you are very welcome to contribute. This
-Application has GNU GPL license. All source code can be accessed [here](https://github.com/jeffrichardchemistry/pySiRC)
+This web platform is free and opensource and you are very welcome to contribute.
+This Application has GNU GPL license. All source code can be accessed [here](https://github.com/jeffrichardchemistry/pySiRC)
 
 """
 
@@ -128,7 +126,7 @@ class FrontEnd(Backend):
 
         if nav == 'Simulator':
             st.title('Simulator')
-            smi_casrn = st.text_input('Type your SMILES or CASRN', 'CC(Cl)(Cl)C(O)=O')
+            smi_casrn = st.text_input('Type SMILES or CAS Number', 'CC(Cl)(Cl)C(O)=O')
             #test casnumber or smiles
             if smi_casrn.count('-') == 2:
                 casrn2smi = cirpy.resolve(smi_casrn, 'smiles')
@@ -144,7 +142,7 @@ class FrontEnd(Backend):
                 st.write(Draw.MolToMPL(mole), unsafe_allow_html=True)                
 
             reaction_radicals = st.selectbox("Choose a radical reaction", ('OH', 'SO4'))
-            combo_models = st.multiselect("Choose Models",("Random Forest", "Bagging", "Extra Trees", "Gradient Boosting", "Neural Network"))
+            combo_models = st.multiselect("Choose ML Models",("Random Forest", "Bagging", "Extra Trees", "Gradient Boosting", "Neural Network"))
 
             #Calculate fingerprints and show 
             show_FP = st.checkbox("Show FingerPrint")
@@ -155,7 +153,7 @@ class FrontEnd(Backend):
                 except:
                     pass
 
-            ktype = st.radio("Return Rate Constant as", ("ln k", "k"))
+            ktype = st.radio("Return Reaction Rate Constant as", ("ln k", "k"))
             #Button funcionalities
             if st.button('Generate'):
                 fpsbits, fpsbinary = FrontEnd.makeFingerPrint(self, smiles=smi_casrn)
