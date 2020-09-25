@@ -1,0 +1,276 @@
+names,cas number,smiles,kso4,kOH_rescale,chemical class,Set
+"1,5-dimethylpyrimidine-2,4-dione",4160-72-9,CN1C=C(C)C(=O)NC1=O,"5,00E+09","0,920106572",Amine,train
+2-Methoxy-2-methylpropane,1634-04-4,COC(C)(C)C,"1,97E+06","0,350026172",Ether,train
+Did not work,14459-29-1,CC(O)c1c(C)c2[nH]c1cc3[nH]c(cc4nc(cc5nc(c2)c(C)c5CCC(O)=O)c(CCC(O)=O)c4C)c(C(C)O)c3C,"5,60E+09","0,928348076",CarboxylicAcid,train
+2-hydroxypropanoate,113-21-3,CC(O)C([O-])=O,"1,60E+07","0,502346689",CarboxylicAcid,train
+3-Chlorophenol,108-43-0,Oc1cccc(Cl)c1,"9,20E+09","0,964450025",Alcohol,train
+NITROUS ACID,7782-77-6,ON=O,"1,60E+08","0,669795586",Nitro,train
+"(2S,5R,6R)-6-[[(2R)-2-[(4-ethyl-2,3-dioxopiperazine-1-carbonyl)amino]-2-phenylacetyl]amino]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid",66258-76-2,CCN1CCN(C(=O)N[C@@H](C(=O)N[C@H]2[C@H]3SC(C)(C)[C@@H](N3C2=O)C(O)=O)c4ccccc4)C(=O)C1=O,"1,20E+09","0,816323629",CarboxylicAcid,train
+"3,7,8,10-tetramethylbenzo[g]pteridine-2,4-dione",18636-32-3,CN1C(=O)N=C2N(C)c3cc(C)c(C)cc3N=C2C1=O,"8,00E+09","0,954286238",Amine,train
+Chloroform,67-66-3,ClC(Cl)Cl,"7,37E+05","0,278525704",Halogen,train
+propanoate,72-03-7,CCC([O-])=O,"4,60E+06","0,411696195",CarboxylicAcid,train
+"1,7,7-trimethylbicyclo[2.2.1]heptan-6-ol",10385-78-1,CC1(C)C2CCC1(C)C(O)C2,"5,28E+08","0,756620173",Alcohol,train
+1-Chloro-3-fluoro-2-methylbenzene,443-83-4,Cc1c(F)cccc1Cl,"1,20E+09","0,816323629",Halogen,train
+(2S)-2-amino-3-(1H-indol-3-yl)propanoic acid,80206-30-0,N[C@@H](Cc1c[nH]c2ccccc12)C(O)=O,"2,30E+09","0,863635743",CarboxylicAcid,train
+2-hydroxybutanedioate,149-61-1,OC(CC([O-])=O)C([O-])=O,"1,50E+07","0,497653311",CarboxylicAcid,train
+"[3-hydroxy-5-(5-methyl-2,4-dioxopyrimidin-1-yl)oxolan-2-yl]methyl dihydrogen phosphate",365-07-1,CC1=CN(C2CC(O)C(CO[P](O)(O)=O)O2)C(=O)NC1=O,"1,00E+09","0,803064817",Alcohol,train
+Methoxybenzene,100-66-3,COc1ccccc1,"4,90E+09","0,918637388",Ether,train
+"2,3-Dimethylbutane-2,3-diol",76-09-5,CC(C)(O)C(C)(C)O,"2,60E+06","0,370204956",Alcohol,train
+prop-1-en-2-yl acetate,108-22-5,CC(=C)OC(C)=O,"1,50E+09","0,832551104",Ester,train
+2-Aminoacetic acid,56-40-6,NCC(O)=O,"9,00E+06","0,460504982",CarboxylicAcid,train
+Pyrimidine,289-95-2,c1cncnc1,"1,00E+08","0,63561592",Amine,train
+[PO3(OH)](.-),14066-19-4,O=P([O-])(O)=O,"1,20E+06","0,313976939",Phosporous,train
+"1,3,5,6-tetramethylpyrimidine-2,4-dione",59264-09-4,O=C1N(C)C(C(C)=C(C)N1C)=O,"4,10E+09","0,905674797",Amine,train
+2-amino-3-phenylpropanoic acid,3617-44-5,NC(Cc1ccccc1)C(O)=O,"2,70E+09","0,875296203",CarboxylicAcid,train
+N-(4-aminophenyl)sulfonylacetamide,144-80-9,CC(=O)N[S](=O)(=O)c1ccc(N)cc1,"6,00E+09","0,933365385",Sulfur,train
+2-Methylpropyl acetate,110-19-0,CC(C)COC(C)=O,"3,10E+07","0,550444997",Ester,train
+1-Chloronaphthalene,90-13-1,Clc1cccc2ccccc12,"1,30E+09","0,822144505",Halogen,train
+2-Methylpropane,75-28-5,CC(C)C,"1,10E+08","0,642547079",Alkane,train
+3-Phenylpropanoic acid,501-52-0,OC(=O)CCc1ccccc1,"1,60E+09","0,837244482",CarboxylicAcid,train
+formic acid,64-18-6,OC=O,"6,20E+05","0,265954345",CarboxylicAcid,train
+"(6R,7R)-3-(acetyloxymethyl)-8-oxo-7-[(2-thiophen-2-ylacetyl)amino]-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid",2073-29-2,CC(=O)OCC1=C(N2[C@H](SC1)[C@H](NC(=O)Cc3sccc3)C2=O)C(O)=O,"3,48E+09","0,893751663",CarboxylicAcid,train
+7H-Purine,120-73-0,[nH]1cnc2ncncc12,"3,00E+08","0,715509348",Amine,train
+1-Chloro-4-methylbenzene,106-43-4,Cc1ccc(Cl)cc1,"1,10E+09","0,809995976",Halogen,train
+but-2-enoic acid,3724-65-0,C/C=C/C(O)=O,"7,70E+08","0,784057814",CarboxylicAcid,train
+butyl prop-2-enoate,141-32-2,CCCCOC(=O)C=C,"2,00E+08","0,686023061",Ester,train
+"1,3-dichloro-2-(dichloromethyl)benzene",81-19-6,ClC(Cl)c1c(Cl)cccc1Cl,"2,00E+08","0,686023061",Halogen,train
+(2S)-2-amino-3-(4-hydroxyphenyl)propanoic acid,140-43-2,N[C@@H](Cc1ccc(O)cc1)C(O)=O,"3,20E+09","0,887651623",CarboxylicAcid,train
+"1,3-DIOXANE",505-22-6,C1COCOC1,"3,40E+07","0,557162582",Ether,train
+"cyclohexa-2,5-diene-1,4-dione",106-51-4,O=C1C=CC(=O)C=C1,"3,50E+08","0,726719514",Ketone,train
+"1-[(2R,4S,5R)-4-hydroxy-5-(hydroxymethyl)oxolan-2-yl]-3,5-dimethylpyrimidine-2,4-dione",958-74-7,CN1C(=O)N(C=C(C)C1=O)[C@H]2C[C@H](O)[C@@H](CO)O2,"3,50E+09","0,89416841",Alcohol,train
+acetate,71-50-1,CC([O-])=O,"4,65E+06","0,412482388",CarboxylicAcid,train
+"3,3-dimethyl-7-oxo-6-[(2-phenylacetyl)amino]-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid",61-33-6,CC1(C(N2C(S1)C(C2=O)NC(=O)CC3=CC=CC=C3)C(=O)O)C,"1,40E+09","0,827533795",CarboxylicAcid,train
+"1,1,1-Trichloroethane",71-55-6,CC(Cl)(Cl)Cl,"1,15E+07","0,47833081",Halogen,train
+Pentyl acetate,628-63-7,CCCCCOC(C)=O,"4,50E+07","0,577546738",Ester,train
+Pentan-1-ol,71-41-0,CCCCCO,"1,30E+08","0,654695609",Alcohol,train
+"1,2,3,4,5-pentafluoro-6-iodobenzene",827-15-6,Fc1c(F)c(F)c(I)c(F)c1F,"3,30E+08","0,722440507",Halogen,train
+Oxolane,109-99-9,C1CCOC1,"2,40E+08","0,699281873",Ether,train
+"1,1,1-trifluoro-2-iodoethane",353-83-3,FC(F)(F)CI,"1,40E+09","0,827533795",Halogen,train
+Ethenylbenzene,100-42-5,C=Cc1ccccc1,"2,00E+09","0,853471957",Alkene,train
+4-ACETYLBENZOIC ACID,586-89-0,CC(=O)c1ccc(cc1)C(O)=O,"2,00E+08","0,686023061",CarboxylicAcid,train
+"(2S,5R,6R)-6-[[(2R)-2-amino-2-(4-hydroxyphenyl)acetyl]amino]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid",26787-78-0,CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](N)c3ccc(O)cc3)C(=O)N2[C@H]1C(O)=O,"2,90E+09","0,880492851",CarboxylicAcid,train
+4-acetyloxybutyl acetate,628-67-1,CC(=O)OCCCCOC(C)=O,"1,30E+07","0,487246712",Ester,train
+"[(2S,5R)-5-(5-methyl-2,4-dioxopyrimidin-1-yl)oxolan-2-yl]methyl dihydrogen phosphate",3715-64-8,CC1=CN([C@H]2CC[C@@H](CO[P](O)(O)=O)O2)C(=O)NC1=O,"1,60E+09","0,837244482",Phosporous,train
+"7,8-dimethyl-10-(2,3,4,5-tetrahydroxypentyl)benzo[g]pteridine-2,4-dione",83-88-5,Cc1cc2N=C3C(=O)NC(=O)N=C3N(CC(O)C(O)C(O)CO)c2cc1C,"8,00E+09","0,954286238",Alcohol,train
+butanedioate,56-14-4,[O-]C(=O)CCC([O-])=O,"7,10E+06","0,443260398",CarboxylicAcid,train
+"3,5-dimethoxybenzoate",4069230,COc1cc(OC)cc(c1)C([O-])=O,"4,40E+09","0,910810257",CarboxylicAcid,train
+1-Bromo-2-methylbenzene,95-46-5,Cc1ccccc1Br,"2,30E+09","0,863635743",Halogen,train
+ethyl prop-2-enoate,140-88-5,CCOC(=O)C=C,"2,00E+08","0,686023061",Ester,train
+"5-methyl-1H-pyrimidine-2,4-dione",65-71-4,CC1=CNC(=O)NC1=O,"3,10E+09","0,88534279",Amide,train
+Ethylbenzene,100-41-4,CCc1ccccc1,"1,00E+09","0,803064817",Alkene,train
+"2-Methyl-1,3-dinitrobenzene",606-20-2,Cc1c(cccc1[N+]([O-])=O)[N+]([O-])=O,"2,71E+07","0,540667254",Nitro,train
+2-[4-(2-methylpropyl)phenyl]propanoic acid,58560-75-1,CC(C)Cc1ccc(cc1)C(C)C(O)=O,"3,80E+09","0,90014894",CarboxylicAcid,train
+"[(2R,3S,4R,5R)-5-(2,4-dioxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl dihydrogen phosphate",27416-86-0,O[C@H]1[C@@H](O)[C@@H](O[C@@H]1CO[P](O)(O)=O)N2C=CC(=O)NC2=O,"6,00E+07","0,598467592",Alcohol,train
+1-ethenoxy-2-methylpropane,109-53-5,CC(C)COC=C,"1,50E+09","0,832551104",Ether,train
+Benzamide,55-21-0,NC(=O)c1ccccc1,"1,90E+08","0,682292903",Amide,train
+trimethyl-phenylazanium hydroxide,3426-74-2,[OH-].C[N+](C)(C)c1ccccc1,"1,50E+08","0,665102207",Amine,train
+Did not work,34787-01-4,CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](C([O-])=O)c3cscc3)C(=O)N2[C@H]1C([O-])=O,"8,00E+08","0,786837342",CarboxylicAcid,train
+"1,2-Dibromobenzene",583-53-9,Brc1ccccc1Br,"4,00E+08","0,736430201",Halogen,train
+"N,N-dimethylnitrous amide",62-75-9,CN(C)N=O,"1,50E+10",1,Amine,train
+12143-45-2,12143-45-2,[O-][S](=O)(=O)=O,"4,10E+07","0,570777004",Sulfur,train
+1-bromo-2-chloroethyne,107-04-0,ClCCBr,"3,00E+05","0,213162658",Halogen,train
+"1,3-Dichlorobenzene",541-73-1,Clc1cccc(Cl)c1,"1,10E+09","0,809995976",Halogen,train
+3-acetyloxypropyl acetate,628-66-0,CC(=O)OCCCOC(C)=O,"4,30E+06","0,406791721",Ester,train
+"(2R,3R,4S,5R)-2-(6-dimethylaminopurin-9-yl)-5-(hydroxymethyl)oxolane-3,4-diol",2620-62-4,CN(C)c1ncnc2n(cnc12)[C@@H]3O[C@H](CO)[C@@H](O)[C@H]3O,"3,90E+09","0,902037933",Amine,train
+ethanol,64-17-5,CCO,"5,60E+07","0,593450283",Alcohol,train
+7H-purin-6-amine,73-24-5,Nc1ncnc2nc[nH]c12,"4,60E+09","0,914042884",Amine,train
+aminothiourea,79-19-6,NNC(N)=S,"9,20E+09","0,964450025",Sulfur,train
+Butan-1-ol,71-36-3,CCCCO,"8,10E+07","0,620291837",Alcohol,train
+hydrogen phosphite,15477-76-6,OP([O-])[O-],"6,20E+07","0,600852138",Phosporous,train
+Oxirane,75-21-8,C1CO1,"1,12E+08","0,643857424",Ether,train
+methyl 2-(2-methoxy-2-oxoethyl)sulfanylacetate,16002-29-2,COC(=O)CSCC(=O)OC,"1,40E+10","0,994982691",Sulfur,train
+3-Methylbenzoic acid,99-04-7,Cc1cccc(c1)C(O)=O,"2,00E+09","0,853471957",CarboxylicAcid,train
+"(2,3,4-trihydroxy-5-oxopentyl) dihydrogen phosphate",3615-55-2,OC(CO[P](O)(O)=O)C(O)C(O)C=O,"2,50E+07","0,534801639",Alcohol,train
+Z,6950240,COc1cccc(C([O-])=O)c1OC,"8,50E+09","0,95869499",CarboxylicAcid,train
+acetic acid,64-19-7,CC(O)=O,"2,36E+04","0,028264038",CarboxylicAcid,train
+4-propan-2-ylbenzenesulfonic acid,71407-44-8,O=S(C1=CC=C(C(C)C)C=C1)(O)=O,"5,40E+08","0,758254447",Did not work,train
+carbonate,3812-32-6,[O-]C([O-])=O,"4,10E+06","0,403328108",CarboxylicAcid,train
+"6-methyl-1H-pyrimidine-2,4-dione",626-48-2,CC1=CC(=O)NC(=O)N1,"1,90E+09","0,849741799",Amine,train
+methyl prop-2-enoate,96-33-3,COC(=O)C=C,"9,10E+06","0,46130855",Ester,train
+bicarbonate,71-52-3,OC([O-])=O,"9,10E+06","0,46130855",CarboxylicAcid,train
+"2-(6-aminopurin-9-yl)-5-(hydroxymethyl)oxolane-3,4-diol",58-61-7,Nc1ncnc2n(cnc12)C3OC(CO)C(O)C3O,"2,70E+09","0,875296203",Amine,train
+9H-Fluoren-9-ol,1689-64-1,OC1c2ccccc2c3ccccc13,"4,00E+09","0,903879098",Alcohol,train
+Pyridine,110-86-1,c1ccncc1,"2,20E+08","0,69295422",Amine,train
+2-amino-3-(3H-imidazol-4-yl)propanoic acid,7006-35-1,NC(Cc1[nH]cnc1)C(O)=O,"2,50E+09","0,869699432",CarboxylicAcid,train
+NAPHTHALENE,91-20-3,c1ccc2ccccc2c1,"2,90E+09","0,880492851",Alkene,train
+"N,N,9-trimethylpurin-6-amine",3013-82-9,CN(C)c1ncnc2n(C)cnc12,"4,00E+09","0,903879098",Amine,train
+4-Methoxybenzoic acid,100-09-4,COc1ccc(cc1)C(O)=O,"3,50E+09","0,89416841",CarboxylicAcid,train
+Z,6950241,COc1cccc(OC)c1C([O-])=O,"2,50E+09","0,869699432",CarboxylicAcid,train
+"(8R,9S,13S,14S,17S)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthrene-3,17-diol",50-28-2,C[C@]12CC[C@H]3[C@@H](CCc4cc(O)ccc34)[C@@H]1CC[C@@H]2O,"1,21E+09","0,816927135",Alcohol,train
+2-Hydroxybutanedioic acid,617-48-1,OC(CC(O)=O)C(O)=O,"7,70E+06","0,449160021",CarboxylicAcid,train
+2-Aminopropanoic acid,6898-94-8,CC(N)C(O)=O,"1,00E+07","0,468167024",CarboxylicAcid,train
+PHENOL,108-95-2,Oc1ccccc1,"1,01E+10","0,971237322",Alcohol,train
+"1,2-DICHLORO-4-(CHLOROMETHYL)BENZENE",102-47-6,ClCc1ccc(Cl)c(Cl)c1,"2,00E+08","0,686023061",Halogen,train
+2-methylpropyl 2-methylprop-2-enoate,97-86-9,CC(C)COC(=O)C(C)=C,"9,10E+06","0,46130855",Ester,train
+(E)-but-2-enedioate,142-42-7,[O-]C(=O)/C=C/C([O-])=O,"1,60E+07","0,502346689",CarboxylicAcid,train
+6-aminophenalen-1-one,70402-14-1,O=C1C=CC2=C3C1=CC=CC3=C(N)C=C2,"1,10E+10","0,977444872",Amine,train
+2-hydroxypropanoic acid,598-82-3,CC(O)C(O)=O,"1,00E+07","0,468167024",CarboxylicAcid,train
+Phenylthiourea,103-85-5,NC(=S)Nc1ccccc1,"4,30E+09","0,90913841",Sulfur,train
+5-acetyloxypentyl acetate,6963-44-6,CC(=O)OCCCCCOC(C)=O,"4,30E+07","0,574240617",Ester,train
+N-(hydroxymethyl)prop-2-enamide,924-42-5,OCNC(=O)C=C,"9,10E+06","0,46130855",Alcohol,train
+4-Chlorobenzoic acid,74-11-3,OC(=O)c1ccc(Cl)cc1,"3,60E+08","0,72876816",CarboxylicAcid,train
+"[(2R,3S,5R)-5-(6-aminopurin-9-yl)-3-hydroxyoxolan-2-yl]methyl dihydrogen phosphate",653-63-4,Nc1ncnc2n(cnc12)[C@H]3C[C@H](O)[C@@H](CO[P](O)(O)=O)O3,"2,20E+09","0,860403117",Amine,train
+3170-83-0,3170-83-0,O[O-],"3,50E+09","0,89416841",oxide,train
+9H-Fluorene,86-73-7,C1c2ccccc2c3ccccc13,"2,50E+09","0,869699432",Alkane,train
+2-amino-3-(1H-indol-3-yl)propanoic acid,6912-86-3,NC(Cc1c[nH]c2ccccc12)C(O)=O,"2,00E+09","0,853471957",CarboxylicAcid,train
+"[(2R,3S,5R)-5-(6-aminopurin-9-yl)-3-hydroxyoxolan-2-yl]methyl [(2R,3R,5S)-3-(hydroxymethyl)-5-(5-methyl-2,4-dioxopyrimidin-1-yl)oxolan-2-yl] hydrogen phosphate",19192-40-6,CC1=CN([C@@H]2C[C@H](CO)[C@H](O2)O[P](O)(=O)OC[C@H]3O[C@H](C[C@@H]3O)n4cnc5c(N)ncnc45)C(=O)NC1=O,"2,00E+09","0,853471957",Amine,train
+prop-2-en-1-ol,107-18-6,OCC=C,"3,00E+09","0,882958244",Alcohol,train
+Cyclopentanol,96-41-3,OC1CCCC1,"2,80E+08","0,710492039",Alcohol,train
+2-Ethylnaphthalene,939-27-5,CCc1ccc2ccccc2c1,"2,00E+09","0,853471957",Alkene,train
+3-methylphenol,108-39-4,Cc1cccc(O)c1,"6,58E+09","0,940075839",Alcohol,train
+"1,1,2-TRICHLOROETHANE",79-00-5,ClCC(Cl)Cl,"3,15E+06","0,384159679",Halogen,train
+1-Chloro-3-methylbenzene,108-41-8,Cc1cccc(Cl)c1,"9,00E+08","0,795402775",Halogen,train
+"N,N-DIMETHYL-4-NITROSOANILINE",138-89-6,CN(C)c1ccc(cc1)N=O,"2,30E+09","0,863635743",Amine,train
+PROPANE,74-98-6,CCC,"4,00E+07","0,568981305",Alkane,train
+oxalic acid,144-62-7,OC(=O)C(O)=O,"1,10E+06","0,307649287",CarboxylicAcid,train
+"1,3-DIBROMOBENZENE",108-36-1,Brc1cccc(Br)c1,"5,00E+08","0,752657676",Halogen,train
+2-Methylpropan-1-ol,78-83-1,CC(C)CO,"1,30E+08","0,654695609",Alcohol,train
+methyl 2-methylprop-2-enoate,80-62-6,COC(=O)C(C)=C,"1,00E+09","0,803064817",Ester,train
+4-amino-1-[4-hydroxy-5-(hydroxymethyl)oxolan-2-yl]pyrimidin-2-one,951-77-9,NC1=NC(=O)N(C=C1)C2CC(O)C(CO)O2,"2,40E+09","0,866730769",Amine,train
+2-CHLORONAPHTHALENE,91-58-7,Clc1ccc2ccccc2c1,"1,10E+09","0,809995976",Halogen,train
+"3-methyl-1H-pyrimidine-2,4-dione",608-34-4,CN1C(=O)NC=CC1=O,"3,30E+09","0,889889404",Amine,train
+BENZOATE,766-76-7,[O-]C(=O)c1ccccc1,"1,20E+09","0,816323629",CarboxylicAcid,train
+benzoic acid,65-85-0,OC(=O)c1ccccc1,"1,20E+09","0,816323629",CarboxylicAcid,train
+"1,2,3,4,5,6-hexafluorobenzene",392-56-3,Fc1c(F)c(F)c(F)c(F)c1F,"7,10E+08","0,778158191",Halogen,train
+FORMATE,71-47-6,[O-]C=O,"1,11E+08","0,643205203",CarboxylicAcid,train
+Propan-1-ol,71-23-8,CCCO,"5,90E+07","0,597245342",Alcohol,train
+1-Chloro-2-(trifluoromethyl)benzene,88-16-4,FC(F)(F)c1ccccc1Cl,"1,00E+08","0,63561592",Halogen,train
+"1,3-Dimethoxybenzene",151-10-0,COc1cccc(OC)c1,"7,00E+09","0,944575551",Ether,train
+HYDROXYLAMINE,7803-49-8,NO,"8,50E+08","0,791246094",Amine,train
+1-Chloro-3-fluorobenzene,625-98-9,Fc1cccc(Cl)c1,"1,00E+09","0,803064817",Halogen,train
+2-Fluoronaphthalene,323-09-1,Fc1ccc2ccccc2c1,"1,40E+09","0,827533795",Halogen,train
+"2-aminobenzene-1,4-disulfonate",6994216,Nc1cc(ccc1[S]([O-])(=O)=O)[S]([O-])(=O)=O,"1,80E+09","0,845809916",Amine,train
+4-bromobenzoate,16449-27-7,[O-]C(=O)c1ccc(Br)cc1,"1,00E+09","0,803064817",CarboxylicAcid,train
+"1-Methyl-2,4-dinitrobenzene",121-14-2,Cc1ccc(cc1[N+]([O-])=O)[N+]([O-])=O,"6,60E+06","0,437949855",Nitro,train
+2-hydroxyacetate,79-14-1,OCC([O-])=O,"1,60E+07","0,502346689",CarboxylicAcid,train
+thiocyanate,302-04-5,[S-]C#N,"5,20E+09","0,922958786",Sulfur,train
+1-propoxypropane,111-43-3,CCCOCCC,"2,30E+08","0,696186847",Ether,train
+2-chloroacetate,14526-03-5,[O-]C(=O)CCl,"4,50E+06","0,410097842",CarboxylicAcid,train
+OCTAN-1-OL,111-87-5,CCCCCCCCO,"3,20E+08","0,720202726",Alcohol,train
+Terephthalate,3198-30-9,[O-]C(=O)c1ccc(cc1)C([O-])=O,"1,70E+08","0,674204338",CarboxylicAcid,train
+BENZENE,71-43-2,c1ccccc1,"1,68E+09","0,840792607",Alkene,train
+2-hydroxy-2-oxoacetate,338-70-5,OC(=O)C([O-])=O,"1,70E+06","0,339306545",CarboxylicAcid,train
+1-ethylsulfinylethane,70-29-1,CC[S](=O)CC,"3,90E+09","0,902037933",Sulfur,train
+"1,7,8-trimethylbenzo[g]pteridine-2,4-dione",18950-64-6,O=C(N1)N(C)C2=NC3=CC(C)=C(C)C=C3N=C2C1=O,"7,00E+09","0,944575551",Amine,train
+"1,1,1,2,2-pentadeuterio-2-deuteriooxyethane",1516-08-1,C(C(O[2H])([2H])[2H])([2H])([2H])[2H],"1,90E+07","0,514844006",Alcohol,train
+"2-(hydroxymethyl)-5-(6-methylaminopurin-9-yl)oxolane-3,4-diol",1867-73-8,CNc1ncnc2n(cnc12)C3OC(CO)C(O)C3O,"4,90E+09","0,918637388",Amine,train
+"5,8-dihydroxynaphthalene-1,4-dione",475-38-7,Oc1ccc(O)c2C(=O)C=CC(=O)c12,"7,40E+09","0,948616709",Alcohol,train
+"7,8,10-trimethylbenzo[g]pteridine-2,4-dione",1088-56-8,CN1c2cc(C)c(C)cc2N=C3C(=O)NC(=O)N=C13,"7,00E+09","0,944575551",Amine,train
+"2,2-diethoxyethylbenzene",6314-97-2,CCOC(Cc1ccccc1)OCC,"3,40E+09","0,892060375",Ether,train
+2-Amino-3-hydroxypropanoic acid,302-84-1,NC(CO)C(O)=O,"2,30E+07","0,528737951",CarboxylicAcid,train
+3-[6-(4-chloro-3-ethylphenoxy)hexyl]-2-(4-chlorophenyl)quinazolin-4-one,4641-33-2,CCc1cc(OCCCCCCN2C(=O)c3ccccc3N=C2c4ccc(Cl)cc4)ccc1Cl,"3,60E+08","0,72876816",Halogen,train
+Ethoxyethane,60-29-7,CCOCC,"1,30E+08","0,654695609",Ether,train
+Z,6950218,COc1ccccc1C([O-])=O,"7,00E+09","0,944575551",CarboxylicAcid,train
+Propanedioate,156-80-9,[O-]C(=O)CC([O-])=O,"5,50E+06","0,424691042",CarboxylicAcid,train
+Chlorobenzene,108-90-7,Clc1ccccc1,"1,50E+09","0,832551104",Halogen,train
+4-Bromobenzoic acid,586-76-5,OC(=O)c1ccc(Br)cc1,"1,00E+09","0,803064817",CarboxylicAcid,train
+"(8R,9S,13S,14S,17R)-17-ethynyl-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthrene-3,17-diol",57-63-6,C[C@]12CC[C@H]3[C@@H](CCc4cc(O)ccc34)[C@@H]1CC[C@@]2(O)C#C,"3,01E+09","0,883200248",Alcohol,train
+1-Chloro-2-(chloromethyl)benzene,611-19-8,ClCc1ccccc1Cl,"7,00E+08","0,777126654",Halogen,train
+3-methoxybenzoate,3433717,COc1cccc(c1)C([O-])=O,"7,60E+09","0,950556081",CarboxylicAcid,train
+ETHANE,74-84-0,CC,"4,40E+06","0,408463568",Alkane,train
+"(2S,5R,6R)-6-[[(2R)-2-amino-2-phenylacetyl]amino]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid",69-53-4,CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](N)c3ccccc3)C(=O)N2[C@H]1C(O)=O,"2,00E+09","0,853471957",CarboxylicAcid,train
+2,90645-55-9,OC(C)(C)C1CC=CCC1,"4,60E+09","0,914042884",Alcohol,train
+4-Hydroxybenzoic acid,99-96-7,OC(=O)c1ccc(O)cc1,"2,50E+09","0,869699432",CarboxylicAcid,train
+2-naphthalen-2-ylacetic acid,581-96-4,OC(=O)Cc1ccc2ccccc2c1,"3,60E+09","0,896217056",CarboxylicAcid,train
+4-Methylbenzoate,5118-31-0,Cc1ccc(cc1)C([O-])=O,"1,80E+09","0,845809916",CarboxylicAcid,train
+1-Phenylethanone,98-86-2,CC(=O)c1ccccc1,"3,10E+08","0,717893893",Ketone,train
+but-3-enenitrile,109-75-1,C=CCC#N,"1,10E+09","0,809995976",Amine,train
+"1,2,3-Trimethoxybenzene",634-36-6,COc1cccc(OC)c1OC,"7,00E+09","0,944575551",Ether,train
+1-Bromo-2-chlorobenzene,694-80-4,Clc1ccccc1Br,"7,00E+08","0,777126654",Halogen,train
+[5-(2-amino-6-oxo-3H-purin-9-yl)-3-hydroxyoxolan-2-yl]methyl dihydrogen phosphate,902-04-5,NC1=NC(=O)c2ncn(C3CC(O)C(CO[P](O)(O)=O)O3)c2N1,"2,30E+09","0,863635743",Amine,train
+butanedioic acid,110-15-6,OC(=O)CCC(O)=O,"7,10E+06","0,443260398",CarboxylicAcid,train
+1-cyclohex-3-enylmethanol,1679-51-2,OCC1CCC=CC1,"4,30E+09","0,90913841",Alcohol,train
+"1,2-dichloro-4-methylbenzene",95-75-0,Cc1ccc(Cl)c(Cl)c1,"9,00E+08","0,795402775",Halogen,train
+Z,6950588,COc1ccc(cc1OC)C([O-])=O,"4,50E+09","0,912444531",CarboxylicAcid,train
+methylbenzene,108-88-3,Cc1ccccc1,"3,10E+09","0,88534279",Alkene,train
+"3,4,5-trimethoxybenzoate",3468283,COc1cc(cc(OC)c1OC)C([O-])=O,"5,00E+09","0,920106572",CarboxylicAcid,train
+1-Ethylnaphthalene,1127-76-0,CCc1cccc2ccccc12,"2,10E+09","0,857020082",Alkene,train
+Cyclohexene,110-83-8,C1CCC=CC1,"4,00E+08","0,736430201",Alkene,train
+"1,1-Dimethylguanidine",3324-71-8,CN(C)C(N)=N,"4,60E+08","0,746593988",Amine,train
+Fluorobenzene,462-06-6,Fc1ccccc1,"9,80E+08","0,801595633",Halogen,train
+"2,2-dichloroacetate",13425-80-4,[O-]C(=O)C(Cl)Cl,"2,10E+06","0,354673392",CarboxylicAcid,train
+2-methylprop-2-enoic acid,79-41-4,CC(=C)C(O)=O,"1,10E+09","0,809995976",CarboxylicAcid,train
+Acrylonitrile,107-13-1,C=CC#N,"8,10E+07","0,620291837",Did not work,train
+propanedioic acid,141-82-2,OC(=O)CC(O)=O,"2,70E+06","0,372949513",CarboxylicAcid,test
+2-[(1R)-4-methyl-1-cyclohex-3-enyl]propan-2-ol,98-55-5,CC1=CC[C@@H](CC1)C(C)(C)O,"4,60E+09","0,914042884",Alcohol,test
+1H-Imidazole,288-32-4,[nH]1ccnc1,"5,30E+09","0,924344012",Amine,test
+2-naphthalen-2-ylethanol,1485-07-0,OCCc1ccc2ccccc2c1,"2,90E+09","0,880492851",Alcohol,test
+prop-2-enoic acid,79-10-7,OC(=O)C=C,"1,06E+08","0,639853359",CarboxylicAcid,test
+Propan-2-ol,67-63-0,CC(C)O,"3,50E+07","0,559270617",Alcohol,test
+(2S)-2-amino-4-methylsulfanylbutanoic acid,26062-47-5,CSCC[C@H](N)C(O)=O,"1,10E+09","0,809995976",CarboxylicAcid,test
+Methylsulfinylmethane,67-68-5,C[S](C)=O,"2,70E+09","0,875296203",Sulfur,test
+"1,2-Dichlorobenzene",95-50-1,Clc1ccccc1Cl,"6,00E+08","0,765916488",Halogen,test
+Heptan-1-ol,111-70-6,CCCCCCCO,"2,50E+08","0,702250535",Alcohol,test
+2-acetyloxyethyl acetate,111-55-7,CC(=O)OCCOC(C)=O,"1,40E+06","0,325187105",Ester,test
+"1,4-Dimethylbenzene",106-42-3,Cc1ccc(C)cc1,"2,70E+09","0,875296203",Alkene,test
+OXEPANE,592-90-5,C1CCCOCC1,"2,40E+08","0,699281873",Ether,test
+"1,3,5-Trimethoxybenzene",621-23-8,COc1cc(OC)cc(OC)c1,"2,10E+09","0,857020082",Ether,test
+1-CHLORO-3-METHOXYBENZENE,2845-89-8,COc1cccc(Cl)c1,"1,20E+10","0,983772525",Halogen,test
+N-tert-butyl-1-phenylmethanimine oxide,3376-24-7,CC(C)(C)[N+]([O-])=Cc1ccccc1,"3,00E+09","0,882958244",Alkene,test
+2-methylprop-2-enenitrile,126-98-7,CC(=C)C#N,"3,79E+08","0,732508417",Amine,test
+Ethyl acetate,141-78-6,CCOC(C)=O,"2,90E+06","0,378146162",Ester,test
+2-naphthalen-1-ylethanol,773-99-9,OCCc1cccc2ccccc12,"2,80E+09","0,877940935",Alcohol,test
+Pentan-3-ol,584-02-1,CCC(O)CC,"1,60E+08","0,669795586",Alcohol,test
+FORMALDEHYDE,50-00-0,C=O,"1,10E+07","0,475098183",Ketone,test
+"3,3-dimethyl-7-oxo-6-[[2-(phenoxy)acetyl]amino]-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid",87-08-1,CC1(C(N2C(S1)C(C2=O)NC(=O)COC3=CC=CC=C3)C(=O)O)C,"2,39E+09","0,866427127",CarboxylicAcid,test
+2-(4-methylphenyl)acetate,622-47-9,Cc1ccc(CC([O-])=O)cc1,"4,50E+09","0,912444531",CarboxylicAcid,test
+Did not work,184709-11-3,N[C@@H](Cc1c[nH]cn1)C(O)=O,"2,50E+09","0,869699432",CarboxylicAcid,test
+"1,4-Dioxane",123-91-1,C1COCCO1,"5,18E+07","0,587780754",Ether,test
+9-methylpurin-6-amine,700-00-5,Cn1cnc2c(N)ncnc12,"4,10E+09","0,905674797",Amine,test
+"2,3,4-trimethoxybenzoate",573-11-5,COc1ccc(C([O-])=O)c(OC)c1OC,"2,50E+09","0,869699432",CarboxylicAcid,test
+1-propylsulfinylpropane,4253-91-2,CCC[S](=O)CCC,"5,00E+09","0,920106572",Sulfur,test
+4-hydroxybenzoate,456-23-5,Oc1ccc(cc1)C([O-])=O,"2,50E+09","0,869699432",CarboxylicAcid,test
+1-Bromo-3-methylbenzene,591-17-3,Cc1cccc(Br)c1,"1,70E+09","0,841653234",Halogen,test
+"2,2-difluoroacetate",83193-04-8,[O-]C(=O)C(F)F,"8,70E+04","0,123141796",CarboxylicAcid,test
+prop-2-enamide,79-06-1,NC(=O)C=C,"1,58E+08","0,66888083",Amide,test
+"[(2R,3S,5R)-5-(2-amino-6-oxo-3H-purin-9-yl)-3-hydroxyoxolan-2-yl]methyl [(2R,3R,5R)-3-(hydroxymethyl)-5-(5-methyl-2,4-dioxopyrimidin-1-yl)oxolan-2-yl] hydrogen phosphate",4251-20-1,CC1=CN([C@H]2C[C@H](CO)[C@H](O2)O[P](O)(=O)OC[C@H]3O[C@H](C[C@@H]3O)n4cnc5C(=O)N=C(N)Nc45)C(=O)NC1=O,"2,00E+09","0,853471957",Amine,test
+4-Methylbenzoic acid,99-94-5,Cc1ccc(cc1)C(O)=O,"1,80E+09","0,845809916",CarboxylicAcid,test
+1-Bromo-4-methylbenzene,106-38-7,Cc1ccc(Br)cc1,"1,00E+09","0,803064817",Halogen,test
+2-Methylbenzoic acid,118-90-1,Cc1ccccc1C(O)=O,"1,40E+09","0,827533795",CarboxylicAcid,test
+"3,4-dihydroxy-4-oxobutanoate",50854-93-8,OC(CC([O-])=O)C(O)=O,"8,50E+06","0,456348301",CarboxylicAcid,test
+2-Methylnaphthalene,91-57-6,Cc1ccc2ccccc2c1,"2,30E+09","0,863635743",Alkene,test
+4-Methylbenzenesulfonate,16722-51-3,Cc1ccc(cc1)[S]([O-])(=O)=O,"1,50E+09","0,832551104",Sulfur,test
+trideuterio-deuteriooxymethane,811-98-3,C(O[2H])([2H])([2H])[2H],"3,70E+06","0,395862879",Alcohol,test
+"2,2,2-trichloroacetate",14357-05-2,[O-]C(=O)C(Cl)(Cl)Cl,"2,00E+06","0,351125268",CarboxylicAcid,test
+"9-methoxyfuro[3,2-g]chromen-7-one",298-81-7,COc1c2occc2cc3C=CC(=O)Oc13,"6,90E+09","0,943529171",Ether,test
+HEXAN-1-OL,111-27-3,CCCCCCO,"1,60E+08","0,669795586",Alcohol,test
+"2,3,4,5,6-Pentafluorophenol",771-61-9,Oc1c(F)c(F)c(F)c(F)c1F,"4,00E+08","0,736430201",Alcohol,test
+1-Methylnaphthalene,90-12-0,Cc1cccc2ccccc12,"2,80E+09","0,877940935",Alkene,test
+"1,2-Dimethoxybenzene",91-16-7,COc1ccccc1OC,"5,00E+09","0,920106572",Ether,test
+2-Bromobenzoic acid,88-65-3,OC(=O)c1ccccc1Br,"8,70E+08","0,792937382",CarboxylicAcid,test
+2-Methylpropan-2-ol,75-65-0,CC(C)(C)O,"7,40E+05","0,278821123",Alcohol,test
+"2-amino-9-[3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-1-methylpurin-6-one",2140-65-0,CN1C(=Nc2n(cnc2C1=O)C3OC(CO)C(O)C3O)N,"4,60E+09","0,914042884",Amine,test
+Did not work,148546950,O=C1C=C(C2=CC=CC=C2)OC3=C1C=CC=C3CC([O-])=O,"2,40E+09","0,866730769",CarboxylicAcid,test
+(2S)-2-amino-3-hydroxypropanoic acid,6898-95-9,N[C@@H](CO)C(O)=O,"2,30E+07","0,528737951",CarboxylicAcid,test
+[5-(4-amino-2-oxopyrimidin-1-yl)-3-hydroxyoxolan-2-yl]methyl dihydrogen phosphate,1032-65-1,NC1=NC(=O)N(C=C1)C2CC(O)C(CO[P](O)(O)=O)O2,"1,60E+09","0,837244482",Amine,test
+"2,4,6-trimethoxybenzoate",7359009,COc1cc(OC)c(C([O-])=O)c(OC)c1,"2,60E+09","0,872551646",CarboxylicAcid,test
+1-Chloro-2-methylbenzene,Ã‚Â 95-49-8,Cc1ccccc1Cl,"1,70E+09","0,841653234",Halogen,test
+4-Methylphenol,106-44-5,Cc1ccc(O)cc1,"4,30E+09","0,90913841",Alcohol,test
+2-(1-Naphthyl)acetic acid,86-87-3,OC(=O)Cc1cccc2ccccc12,"3,50E+09","0,89416841",CarboxylicAcid,test
+N-Phenylacetamide,103-84-4,CC(=O)Nc1ccccc1,"3,60E+09","0,896217056",Amide,test
+"1,3,7,8-tetramethylbenzo[g]pteridine-2,4-dione",14684-48-1,O=C(N1C)N(C)C2=NC3=CC(C)=C(C)C=C3N=C2C1=O,"6,80E+09","0,942467515",Amine,test
+Hydrogen sulfite,15181-46-1,O[S]([O-])=O,"7,50E+08","0,782143963",Sulfur,test
+"[(2R,3S)-5-(2-amino-6-oxo-3H-purin-9-yl)-3-hydroxyoxolan-2-yl]methyl [(2R,5R)-5-(4-amino-2-oxopyrimidin-1-yl)-2-(hydroxymethyl)oxolan-3-yl] hydrogen phosphate",15178-66-2,NC1=NC(=O)c2ncn(C3C[C@H](O)[C@@H](CO[P](O)(=O)OC4C[C@@H](O[C@@H]4CO)N5C=CC(=NC5=O)N)O3)c2N1,"2,00E+09","0,853471957",Amine,test
+"1,2,4-Trimethoxybenzene",135-77-3,COc1ccc(OC)c(OC)c1,"7,80E+08","0,784996177",Ether,test
+2-Bromobenzoate,16887-76-6,[O-]C(=O)c1ccccc1Br,"8,70E+08","0,792937382",CarboxylicAcid,test
+"1,3-dichloro-2-methylbenzene",118-69-4,Cc1c(Cl)cccc1Cl,"4,00E+08","0,736430201",Halogen,test
+"2,2-dimethylpropan-1-ol",75-84-3,CC(C)(C)CO,"2,50E+07","0,534801639",Alcohol,test
+Terephthalic acid,100-21-0,OC(=O)c1ccc(cc1)C(O)=O,"1,70E+08","0,674204338",CarboxylicAcid,test
+Oxetane,503-30-0,C1COC1,"1,10E+08","0,642547079",Ether,test
+"[5-(2-amino-6-oxo-3H-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl [5-(6-aminopurin-9-yl)-4-hydroxy-2-(hydroxymethyl)oxolan-3-yl] hydrogen phosphate",3352-23-6,NC1=NC(=O)c2ncn(C3OC(CO[P](O)(=O)OC4C(O)C(OC4CO)n5cnc6c(N)ncnc56)C(O)C3O)c2N1,"2,00E+09","0,853471957",Amine,test
+Bromobenzene,108-86-1,Brc1ccccc1,"1,80E+09","0,845809916",Halogen,test
+"1,3,5-Trimethylbenzene",108-67-8,Cc1cc(C)cc(C)c1,"1,30E+09","0,822144505",Alkene,test
+Methyldisulfanylmethane,624-92-0,CSSC,"5,00E+08","0,752657676",Sulfur,test
+2-fluoroacetate,513-62-2,[O-]C(=O)CF,"3,40E+06","0,389713685",CarboxylicAcid,test
+(Z)-but-2-enedioate,142-44-9,O=C([O-])/C=C\C([O-])=O,"1,60E+07","0,502346689",CarboxylicAcid,test
+"(8S,9S,10R,13S,14S,17S)-17-Acetyl-10,13-dimethyl-1,2,6,7,8,9,11,12,14,15,16,17-dodecahydrocyclopenta[a]phenanthren-3-one",57-83-0,CC(=O)[C@H]1CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3CC[C@]12C,"1,19E+09","0,815715072",Ketone,test
+Oxane,142-68-7,C1CCOCC1,"1,10E+08","0,642547079",Ether,test
+"2,2,2-trifluoroacetate",14477-72-6,[O-]C(=O)C(F)(F)F,"1,60E+04",0,CarboxylicAcid,test
+"2,4-dimethoxybenzoate",6947027,COc1ccc(C([O-])=O)c(OC)c1,"3,80E+09","0,90014894",CarboxylicAcid,test
+deuteriooxymethane,1455-13-6,CO[2H],"1,10E+07","0,475098183",Alcohol,test
+ethyldisulfanylethane,110-81-6,CCSSCC,"3,00E+08","0,715509348",Sulfur,test
+"1,4-Dimethoxybenzene",150-78-7,COc1ccc(OC)cc1,"7,20E+09","0,946624197",Ether,test
+"2-[2-[(2,6-dichlorophenyl)amino]phenyl]acetic acid",15307-86-5,OC(=O)Cc1ccccc1Nc2c(Cl)cccc2Cl,"9,20E+09","0,964450025",CarboxylicAcid,test
+2-Methylphenol,95-48-7,Cc1ccccc1O,"6,80E+09","0,942467515",Alcohol,test
+2-CHLOROETHANOL,107-07-3,OCCCl,"1,10E+07","0,475098183",Alcohol,test
+propan-2-yl acetate,108-21-4,CC(C)OC(C)=O,"1,50E+06","0,330204414",Ester,test
