@@ -468,10 +468,7 @@ class FrontEnd(BackEnd):
             else:
                 get_k = st.text_input("Type your rate constant")
             
-            run = st.button('Simulate')
-            if st.button('picker'):
-                    get_dir = st.file_picker("Pick a file")
-                    print(get_dir)
+            run = st.button('Simulate')            
             if run:
                 k = float(get_k)
 
