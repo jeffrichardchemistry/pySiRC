@@ -37,7 +37,7 @@ Install all dependencies packages:
 $ pip install streamlit numpy cirpy pandas seaborn scikit-learn XGBoost tqdm
 ```
 
-### Or install conda via ubuntu repository (Linux Environment)
+### Another way: install RDkit via ubuntu repository (Linux Environment)
 ```
 $ sudo python3 apt install python3-rdkit
 ```
