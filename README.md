@@ -1,6 +1,7 @@
 [![DOI](https://zenodo.org/badge/290038246.svg)](https://zenodo.org/badge/latestdoi/290038246)
 
 # pySiRC
+<img src="/doc/presentation_pysirc.gif?raw=true" align="center">
 
 pySiRC is a simple web application for predicting rate constant using machine learning models.
 The models used are: XGBoost, Random Forest and MultiLayer Perceptron (Neural network). It is possible to make predictions for oxidation reactions with the radicals OH and SO4 with just a few clicks. To access this application remotely use the link [pysirc.com.br](http://pysirc.com.br/).
