@@ -13,12 +13,15 @@ Another way to use this application is to install and run it locally. PySiRC was
 <li><b>Cirpy:</b> Convert cas number to smiles.</li>
 <li><b>Streamlit:</b> Python framework to creating dashboards.</li>
 <li><b>Pandas:</b> Data manipulation.</li>
+<li><b>Seaborn:</b> Plots based in matplotlib.</li>
+<li><b>Scikit-learn:</b> Framework to perform ML models.</li>
+<li><b>XGBoost:</b> Perform a XGBoost model.</li>
   
 </ul>
 
-## Installation to run locally (Linux Environments)
+## Installation to run locally
 
-Install conda to get rdkit.
+### Install conda to get rdkit.
 Conda version recommended [here](https://repo.anaconda.com/archive/Anaconda3-4.4.0-Linux-x86_64.sh)
 ```
 $ chmod +x Anaconda3-4.4.0-Linux-x86_64.sh
@@ -28,9 +31,22 @@ Installing rdkit from conda-forge:
 ```
 $ conda install -c conda-forge rdkit
 ```
-Install pandas, streamlit, numpy and cirpy:
+Install all dependencies packages:
 ```
-$ pip install streamlit numpy cirpy pandas
+$ pip install streamlit numpy cirpy pandas seaborn scikit-learn XGBoost tqdm
+```
+
+### Or install conda via ubuntu repository (Linux Environment)
+```
+$ sudo python3 apt install python3-rdkit
+```
+Install pip to set up all python dependencies
+```
+$ sudo python3 apt install python3-pip
+```
+Install all dependencies packages:
+```
+$ sudo pip3 install streamlit numpy cirpy pandas seaborn scikit-learn XGBoost tqdm
 ```
 
 Download this repository, manually or via git:
