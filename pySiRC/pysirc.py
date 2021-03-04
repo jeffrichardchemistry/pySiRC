@@ -1,15 +1,21 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
+import base64
+import textwrap
 
 from texts import Texts
 from pysirc_tools import ApplicabilityDomain
 
 import pickle
 import cirpy
+
 from rdkit.Chem import AllChem, Draw
 from rdkit.Chem import MACCSkeys
 from rdkit import Chem
+from rdkit.Chem import rdDepictor
+from rdkit.Chem.Draw import rdMolDraw2D
+
 from PIL import Image
 
 import seaborn as sns
@@ -98,10 +104,32 @@ class BackEnd:
         self.kSO4_maccs_xgb = pickle.load(open(path_kSO4_maccs_xgb, 'rb'))
         self.kSO4_maccs_mlp = pickle.load(open(path_kSO4_maccs_mlp, 'rb'))
 
-    def _mol2img(self, smiles :str):
-        mol = Chem.MolFromSmiles(smiles)
-        return Chem.Draw.MolToImage(mol, size=(350, 350))
+    #def _mol2img(self, smiles :str):
+    #    mol = Chem.MolFromSmiles(smiles)
+    #    return Chem.Draw.MolToImage(mol, size=(350, 350), useSVG=True)
     
+    def __moltosvg(self, mol, molSize = (320,320), kekulize = True):
+        mol = Chem.MolFromSmiles(mol)
+        mc = Chem.Mol(mol.ToBinary())
+        if kekulize:
+            try:
+                Chem.Kekulize(mc)
+            except:
+                mc = Chem.Mol(mol.ToBinary())
+        if not mc.GetNumConformers():
+            rdDepictor.Compute2DCoords(mc)
+        drawer = rdMolDraw2D.MolDraw2DSVG(molSize[0],molSize[1])
+        drawer.DrawMolecule(mc)
+        drawer.FinishDrawing()
+        svg = drawer.GetDrawingText()
+        return svg.replace('svg:','')
+
+    def _render_svg(self, smiles):
+        svg = BackEnd.__moltosvg(self, mol=smiles)
+        b64 = base64.b64encode(svg.encode('utf-8')).decode("utf-8")
+        html = r'<img src="data:image/svg+xml;base64,%s"/>' % b64
+        st.write(html, unsafe_allow_html=True)
+
     def _makeMorganFingerPrint(self, smiles, nbits :int, raio=3):
         mol = Chem.MolFromSmiles(smiles)
         bi = {}
@@ -189,11 +217,12 @@ class FrontEnd(BackEnd):
             show_molecule = st.button('Show')
             if show_molecule:
                 show = st.button('Hide')
-                st.image(FrontEnd._mol2img(self, smi_casrn))
+                #st.image(FrontEnd._mol2img(self, smi_casrn))                
+                FrontEnd._render_svg(self, smi_casrn) #plot molecule
             
             radicals = st.selectbox("Choose a radical reaction", ('OH', 'SO4'))
             fprints = st.radio("Choose type molecular fingerprint", ('Morgan', 'MACCS'))
-            cmodels = st.multiselect("Choose ML Models", ("XGBoost", "Neural Network", "Random Forest"))
+            cmodels = st.multiselect("Choose ML Models", ("XGBoost", "Neural Network", "Random Forest"), default="Neural Network")
             ktype = st.radio("Return Reaction Rate Constant as", ("ln k", "k"))
 
             generate = st.button("Generate")
@@ -457,14 +486,15 @@ class FrontEnd(BackEnd):
             show_molecule = st.button('Show')
             if show_molecule:
                 show = st.button('Hide')
-                st.image(FrontEnd._mol2img(self, smi_casrn))
+                #st.image(FrontEnd._mol2img(self, smi_casrn))
+                FrontEnd._render_svg(self, smi_casrn) #plot molecule
             
             k_auto_manual = st.radio("Choose", ('Automatic', 'Manual'))
             if k_auto_manual == "Automatic":
                 get_k = self.kOH_morgan_mlp.predict(fp.reshape(1, -1))[0]
                 get_k = np.e**(FrontEnd._back_rescale2lnK(self, data=get_k, k='kOH'))
             else:
-                get_k = st.text_input("Type your rate constant")
+                get_k = st.text_input("Type your rate constant", '2.88E8')
             
             run = st.button('Simulate')            
             if run:
