@@ -12,8 +12,6 @@ from rdkit.Chem import MACCSkeys
 from rdkit import Chem
 from PIL import Image
 
-from bokeh.plotting import figure
-
 import seaborn as sns
 sns.set_style('darkgrid')
 import matplotlib.pyplot as plt
