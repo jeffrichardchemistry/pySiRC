@@ -23,6 +23,8 @@ sns.set_style('darkgrid')
 import matplotlib.pyplot as plt
 
 IMAGE_SUPP = Image.open('figs/logos.png')
+IMG_TABLE_MODELS = Image.open('figs/table_models.jpeg')
+IMG_TABLE_AD = Image.open('figs/table_AD.jpeg')
 
 class BackEnd:
     def __init__(self):
@@ -191,6 +193,9 @@ class FrontEnd(BackEnd):
         super().__init__()
         gettext = Texts()
         self.text1 = gettext.text1()
+        self.text1_2 = gettext.text1_2()
+        self.text1_3 = gettext.text1_3()
+        self.text1_4 = gettext.text1_4()
         self.text2 = gettext.text2()
         self.text3 = gettext.text3()
 
@@ -202,7 +207,11 @@ class FrontEnd(BackEnd):
         if nav == 'HOME':
             st.header('Python Simulator of Rate Constant')
             st.markdown('{}'.format(self.text1), unsafe_allow_html=True)
-        
+            st.markdown('{}'.format(self.text1_2), unsafe_allow_html=True)
+            st.image(IMG_TABLE_MODELS)
+            st.markdown('{}'.format(self.text1_3), unsafe_allow_html=True)
+            st.image(IMG_TABLE_AD)
+            st.markdown('{}'.format(self.text1_4), unsafe_allow_html=True)
         if nav == 'Simulator rate constants':
             st.title('Simulator')
             smi_casrn = st.text_input('Type SMILES or CAS Number', 'CCOP(=S)(OCC)OC1=NC(=C(C=C1Cl)Cl)Cl')
