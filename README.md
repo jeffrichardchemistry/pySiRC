@@ -8,11 +8,11 @@ Another way to use this application is to install and run it locally. PySiRC was
 
 ### Dependencies
 <ul>
-<li><b>RDkit:</b>Draw molecules and onvert smiles to fingerprints.</li>
-<li><b>Numpy:</b>Create matrices and mathematical operations.</li>
-<li><b>Cirpy:</b>Convert cas number to smiles.</li>
-<li><b>Streamlit:</b>Python framework for creating dashboards.</li>
-<li><b>Pandas:</b>Data manipulation.</li>
+<li><b>RDkit:</b> Draw molecules and convert smiles to fingerprints.</li>
+<li><b>Numpy:</b> Create matrices and mathematical operations.</li>
+<li><b>Cirpy:</b> Convert cas number to smiles.</li>
+<li><b>Streamlit:</b> Python framework to creating dashboards.</li>
+<li><b>Pandas:</b> Data manipulation.</li>
   
 </ul>
 
