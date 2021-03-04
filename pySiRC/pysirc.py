@@ -166,6 +166,7 @@ class FrontEnd(BackEnd):
         gettext = Texts()
         self.text1 = gettext.text1()
         self.text2 = gettext.text2()
+        self.text3 = gettext.text3()
 
         FrontEnd.main(self)
     def main(self):
@@ -175,7 +176,6 @@ class FrontEnd(BackEnd):
         if nav == 'HOME':
             st.header('Python Simulator of Rate Constant')
             st.markdown('{}'.format(self.text1), unsafe_allow_html=True)
-            st.image(IMAGE_SUPP, use_column_width=True)
         
         if nav == 'Simulator rate constants':
             st.title('Simulator')
@@ -493,9 +493,13 @@ class FrontEnd(BackEnd):
                 df_table = pd.DataFrame({'log([OH])':M_OH2df, 'Half-life':t1_2_table.round(0)})
                 st.table(df_table)
 
+        if nav == 'About':
+            st.markdown('{}'.format(self.text3), unsafe_allow_html=True)
+            st.image(IMAGE_SUPP, use_column_width=True)
+
     def NavigationBar(self):
         st.sidebar.markdown('# Navegation:')
-        nav = st.sidebar.radio('Go to:', ['HOME', 'Simulator rate constants', 'Simulator half-life'])
+        nav = st.sidebar.radio('Go to:', ['HOME', 'Simulator rate constants', 'Simulator half-life', 'About'])
         
         st.sidebar.markdown('# Contribute')
         st.sidebar.info('{}'.format(self.text2))
