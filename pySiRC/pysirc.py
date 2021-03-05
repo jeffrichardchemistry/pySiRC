@@ -24,8 +24,9 @@ import matplotlib.pyplot as plt
 
 IMAGE_SUPP = Image.open('figs/logos.png')
 IMG_TABLE_MODELS = Image.open('figs/table_models.jpeg')
+IMG_TABLE_MODELS = IMG_TABLE_MODELS.resize((750,400))
 IMG_TABLE_AD = Image.open('figs/table_AD.jpeg')
-
+IMG_TABLE_AD = IMG_TABLE_AD.resize((750, 420))
 class BackEnd:
     def __init__(self):
         self.max_kOH = 24.81761039916851
@@ -62,6 +63,17 @@ class BackEnd:
         self.kSO4_maccs_xgb = None
         self.kSO4_maccs_mlp = None
         BackEnd.__load_models(self)
+
+        #hide streamlit toolbar
+        BackEnd.__hide_streamlit_toolbar(self)
+
+    def __hide_streamlit_toolbar(self):
+        hide_streamlit_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        </style>"""        
+        st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
     @st.cache
     def __load_basestrain(self):
@@ -232,7 +244,7 @@ class FrontEnd(BackEnd):
             radicals = st.selectbox("Choose a radical reaction", ('OH', 'SO4'))
             fprints = st.radio("Choose type molecular fingerprint", ('Morgan', 'MACCS'))
             cmodels = st.multiselect("Choose ML Models", ("XGBoost", "Neural Network", "Random Forest"), default="Neural Network")
-            ktype = st.radio("Return Reaction Rate Constant as", ("ln k", "k"))
+            ktype = st.radio("Return Reaction Rate Constant as", ("k", "ln k"))
 
             generate = st.button("Generate")
             if generate:
