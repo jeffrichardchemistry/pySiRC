@@ -10,7 +10,7 @@ class Texts:
         of aqueous organic contaminants based on Machine Learning models using molecular fingerprints.
         It is only necessary to inform the SMILES or CAS Number format of a specific molecule.
         The models present in this work were built using [scikit-learn](https://scikit-learn.org/stable/) and [XGBoost](https://xgboost.readthedocs.io/en/latest/python/python_api.html) packages.
-        The predict values can be confronted with experimental values available in ref. [our] or [kinetics.nist.gov/solution](kinetics.nist.gov/solution). 
+        The predict values can be confronted with experimental values available in our work or [kinetics.nist.gov/solution](https://kinetics.nist.gov/solution/). 
         <br>
         <br>            
         """
