@@ -18,7 +18,7 @@ class Texts:
         return TEXT1
     def text1_2(self):
         TEX1_2 = """
-        ### Tab: Simulator rate constants
+        ### Tab: Simulator Aqueous Media
         The table below illustrates the statistical validation parameters of the models used in this work. $Q^{2}_{ext}$
         indicates the model's predictive power and RMSE the model's error. Since NN refers to Neural Networks, XGB xgboost
         and RF is the random forest for both forms of fingerprints. Therefore, in the 'Simulator rate constants' tab, it is
@@ -38,7 +38,7 @@ class Texts:
     
     def text1_4(self):
         TEXT1_4 = r"""
-        ### Tab: Simulator half-life
+        ### Tab: Half-life Aqueous Media
         From the data of the total reaction rate constant of organic contaminants with the $[OH^{\bullet}]$ radical obtained
         by ML models, it is possible to calculate the half-life time using $t_{1/2} = \frac{ln 2}{k [OH^{\bullet}]}$
         where $[OH^{\bullet}]$ is the concentration of $[OH]$ radicals in aqueous media. The half-life of the reaction was studied
@@ -70,7 +70,8 @@ class Texts:
         All the source code for this application and the steps for local installation are at
         [https://github.com/jeffrichardchemistry/pySiRC](https://github.com/jeffrichardchemistry/pySiRC).
         You are free to use, change and distribute this application under the GNU GPL license. The maintainers of this
-        package so far are: Jefferson Richard Dias (jrichardquimica@gmail.com) and Flavio Olimpio (flavio_olimpio@outlook.com).
+        package so far are: Jefferson Richard Dias (jrichardquimica@gmail.com), Flavio Olimpio (flavio_olimpio@outlook.com),
+        and Vitor Mendes (vitor.mendes.ag@gmail.com).
 
         ## Supporters
         """
