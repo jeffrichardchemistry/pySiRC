@@ -7,7 +7,7 @@ class Texts:
     def text1(self):        
         TEXT1 = """
         This application consists of the automatic prediction of reaction rate constant of the radical-based oxidation process
-        of aqueous organic contaminants based on Machine Learning models using molecular fingerprints.
+        of aqueous and atmospheric organic contaminants based on Machine Learning models using molecular fingerprints.
         It is only necessary to inform the SMILES or CAS Number format of a specific molecule.
         The models present in this work were built using [scikit-learn](https://scikit-learn.org/stable/) and [XGBoost](https://xgboost.readthedocs.io/en/latest/python/python_api.html) packages.
         The predict values can be confronted with experimental values available in our work or [kinetics.nist.gov/solution](https://kinetics.nist.gov/solution/). 
