@@ -127,7 +127,7 @@ class BackEnd:
         self.kOH_morgan_rf   = pickle.load(open(path_kOH_morgan_rf, 'rb'))
         self.kOH_morgan_xgb  = pickle.load(open(path_kOH_morgan_xgb, 'rb'))
         self.kOH_morgan_mlp  = pickle.load(open(path_kOH_morgan_mlp, 'rb'))
-        #self.kSO4_morgan_rf  = pickle.load(open(path_kSO4_morgan_rf, 'rb'))
+        self.kSO4_morgan_rf  = pickle.load(open(path_kSO4_morgan_rf, 'rb'))
         self.kSO4_morgan_xgb = pickle.load(open(path_kSO4_morgan_xgb, 'rb'))
         self.kSO4_morgan_mlp = pickle.load(open(path_kSO4_morgan_mlp, 'rb'))
 
