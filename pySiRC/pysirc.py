@@ -22,6 +22,9 @@ import seaborn as sns
 sns.set_style('darkgrid')
 import matplotlib.pyplot as plt
 
+from state import count_sessions
+count_sessions()
+
 IMAGE_SUPP = Image.open('figs/logos.png')
 IMG_TABLE_MODELS = Image.open('figs/table_models.jpeg')
 IMG_TABLE_MODELS = IMG_TABLE_MODELS.resize((750,400))
