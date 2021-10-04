@@ -22,6 +22,12 @@ Another way to use this application is to install and run it locally. PySiRC was
 
 ## Installation to run locally
 
+### Install dependencies via pip
+The rdkit via pip (rdkit-pypi) is only available for linux (need glibc>=2.17) and macOS systems.
+```
+$ pip3 install streamlit numpy cirpy pandas seaborn scikit-learn XGBoost tqdm rdkit-pypi
+```
+
 ### Install conda to get rdkit.
 Conda version recommended [here](https://repo.anaconda.com/archive/Anaconda3-4.4.0-Linux-x86_64.sh)
 ```
